@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+#gameCanvas {
+    border: 2px solid #fff;
+    background-color: #333;
+}
+
+#restartButton {
+    display: none; /* 初期状態ではボタンを非表示 */
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0095DD;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#restartButton:hover {
+    background-color: #007ACC;
+}
+
+#score {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
